@@ -1,0 +1,24 @@
+### This is a code package for the training and inverting processes of a U-Net model specifically for northwest Pacific MLD inversion. ###
+
+Main codes for training and inverting are given.
+Required classes and functions are given in folders "classes" and "tools", respectively.
+Required example files are given in folders "cdl" and "_mask".
+
+Case4.1 is selected as an example for detailed setting, where oceanic inputs and MLD are originated from HYCOM, winds are originated from CFSv2.
+
+Containing: 
+1) unet_train.py
+	model training
+2) unet_invert.py
+	inverting with a trained model
+3）classes
+	containing net modules (net_blocks.py, net.py) and training modules (dataset.py, normalizer.py)
+4) tools
+	containing functions for universal using (pre_function.py) and model training (torch_function.py)
+5) cdl
+	containing an example cdl file descriping output nc file, which is used by unet_invert.py (HYCOMnwp_mld.cdl)
+6) _mask
+	containing an example mask file, which is used by unet_invert.py(HYCOMnwp_mld_mask.nc)
+
+
+### Wrote by Xinyi Li (xinyi.li.ocean@outlook.com) ###
