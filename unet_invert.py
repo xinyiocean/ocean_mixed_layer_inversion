@@ -9,8 +9,8 @@ from tools.pre_function import write_nc,getll_nc,getdata_nc
 ### settings
 input_size, output_size = 6, 1
 filters_num = [8,16,32,64,128]
-modelfile = 'data_file/UNET_models/Case4_1/unet_expt7_06.pth' 
-file_dict = {'invs_fn':'data_file/Input_Case4_1/HYCOM_DATE.npz', 
+modelfile = 'data_file/UNET_models/unet_expt7_06.pth' 
+file_dict = {'invs_fn':'data_file/Input_Case4_1/inver_set/HYCOM_DATE.npz', 
              'mean_nc':'data_file/HYCOM_mean/HYCOMnwp_mld_DATE_MD_avg_daily.nc',
              'mask_nc':'_mask/HYCOMnwp_MLD_mask.nc',
              'cdl_fn': 'cdl/HYCOMnwp_mld.cdl',
