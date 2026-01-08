@@ -19,8 +19,8 @@ device_ids = [0,1]
 input_size, output_size = 6, 1
 filters_num = [8,16,32,64,128]  #filters_num should be list type
 epoch_size, batch_size, learnrate, target = 200, 24, 0.001, 0.01
-path_train = 'Input_Case4_1/train_set/'
-path_test = 'Input_Case4_1/test_set/'
+path_train = 'data_file/Input_Case4_1/train_set/'
+path_test = 'data_file/Input_Case4_1/test_set/'
 modelfile = 'unet_case4_1_example.pth'
 size1,size2 = 11,12
 
