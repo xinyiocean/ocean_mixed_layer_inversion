@@ -22,8 +22,8 @@ var_dict = {'features': ['sst','ssh','u10','v10'],
             'rslt_var': ['longitude','latitude','MLD_Tdiff_est','MLD_Tdiff_dia','MLDa_Tdiff_est','MLDa_Tdiff_dia'],
             'rslt_dim': ['longitude','latitude',('time','latitude','lontitude'),('time','latitude','lontitude'),\
                         ('time','latitude','lontitude'),('time','latitude','lontitude')]}
-start_date = datetime(2019, 1, 1)
-end_date = datetime(2019, 12, 31)
+start_date = datetime(2019, 2, 1)
+end_date = datetime(2019, 2, 15)
 cut_inx1,cut_inx2 = 11,12
 
 ### load lon, lat and mask
