@@ -60,7 +60,7 @@ model.to(device)
 torch.cuda.synchronize()
 
 # print information
-print('Unet experiment7 2016-2018,2020-2022')
+print('Case 4_1 2016 Feb, Aug')
 print('Features: lon, lat, SST, SSH, U10m, V10m \nLabel: MLD \nMean: daily')
 print('Number of features: %d\nNumber of labels: %d\nNumber of conv layers: %d' %  (input_size,output_size,len(filters_num)))
 print('Number of filters:', filters_num)
